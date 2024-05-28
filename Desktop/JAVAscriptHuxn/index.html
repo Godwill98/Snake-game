@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Election Candidate Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Election Candidate Registration Form</h1>
+  
+  <form action="submit_candidate.php" method="POST">
+    <label for="name">Candidate Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="party">Party Affiliation:</label>
+    <input type="text" id="party" name="party" required><br><br>
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required><br><br>
+    
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" required></textarea><br><br>
+    
+    <input type="submit" value="Register">
+  </form>
+</body>
+</html>
